@@ -4,10 +4,10 @@ The aim of this project is helping users to find answer (or relevant slides) for
 To implement this API we used Django and cdQA (https://cdqa-suite.github.io/cdQA-website/).
 
 To call the API, you can send your request to:
-base-url/answer-creator/get-answers/?deck-id=<DECK-ID>&query=<QUESTION>
+`base-url/answer-creator/get-answers/?deck-id=<DECK-ID>&query=<QUESTION>`
   
 Moreover, the output has the following template:
-[
+`[
     {
         "slide_id": <SLIDE-ID1>,
         "revision_id": <REVISION-ID1>,
@@ -24,7 +24,7 @@ Moreover, the output has the following template:
         "paragraph": <PARAGRAPH-CONTAINING-THE-ANSWER2>,
         "score": <SCORE-OF-THE-ANSWER2>
     }  
-]
+]`
 
 
 

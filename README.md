@@ -3,7 +3,7 @@ The aim of this project is helping users to find answer (or relevant slides) for
 
 To **implement** this API, we used *Django* and *cdQA* (https://cdqa-suite.github.io/cdQA-website/).
 
-
+To **install the dependencies** you can run `pip install -r requirements.txt`
 To **run** the server, you can use `python manange.py runserver`.
 
 To **call the API**, you can send your request to:

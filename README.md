@@ -7,7 +7,7 @@ To call the API, you can send your request to:
 `base-url/answer-creator/get-answers/?deck-id=<DECK-ID>&query=<QUESTION>`
   
 Moreover, the output has the following template:
-`[
+```[
     {
         "slide_id": <SLIDE-ID1>,
         "revision_id": <REVISION-ID1>,
@@ -24,7 +24,7 @@ Moreover, the output has the following template:
         "paragraph": <PARAGRAPH-CONTAINING-THE-ANSWER2>,
         "score": <SCORE-OF-THE-ANSWER2>
     }  
-]`
+]```
 
 
 

@@ -9,3 +9,4 @@ def get_answers(req):
     query = req.GET.get("query")
     answers = create_answers(deck_id, query)
     return Response(status=200, data=answers)
+    

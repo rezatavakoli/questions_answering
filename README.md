@@ -9,7 +9,9 @@ To **run** the server, you can use `python manange.py runserver`.
 To **call the API**, you can send your request to:
 
 `base-url/answer-creator/get-answers/?deck-id=<DECK-ID>&query=<QUESTION>`
-  
+
+
+
 Moreover, the **output** has the following template:
 ```
 [
